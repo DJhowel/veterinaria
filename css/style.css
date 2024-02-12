@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    font-family: 'Protest Riot', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smoothbac;
+}
+
+/*Estilos de la cabecera*/
+header{
+    width: 100%;
+    padding: 30px 0 0 0;
+    background: url(../img/inicio.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 60px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400px;
+    transition: .5s;
+}
+
+#hero{
+    width: 80%;
+    text-align: right;
+    margin:0 auto;
+    padding-top: 65px;
+}
+
+#hero h2{
+    font-size: 60px;
+    color: #000;
+    text-align: left;
+}
+
+#hero h1{
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.button-v{
+    background: #000;
+    font-size: 30px;
+    padding: 12px 30px;
+    border-radius: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: none !important;
+}
+
+#hero .button-v:hover{
+    transform: scale(0.9);
+    background-color: cadetblue;
+    color: #000;
+ } 
+
+ nav li a:hover{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+} 
+
+#logo img{
+    transform: .5s;
+    width: 170px;
+}
+
+#logo img:hover{
+    transform: scale(1.1);
+}
+ 
+/* MAIN estilos servicios */
+main{
+    width: 100%;
+    position: relative;
+}
+
+section .logo1{
+    position: absolute;
+    transition: .5s;
+}
+
+#servicios{
+    width: 100%;
+    background: #000;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border: 10px #fff;
+}
+
+#servicios h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#servicios p{
+    font-size: 24px;
+    color: #fff;
+}
+
+#servicios .col-ser p{
+    padding-top: 40px;
+}
+
+#servicios .fila{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3px;
+}
+
+#servicios .col-ser{
+    position: relative;
+}
+
+#servicios .col-ser h3{
+    position: absolute;
+    top: 270px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+#servicios .col-ser img{
+    cursor: pointer;
+    border: 4px #fff;
+}
+
+#servicios .col-ser img:hover{
+    border-radius: 50%;
+}
+
+#servicios .fila a{
+    margin: auto; 
+}
+
+#bts{
+    padding: 10px;
+    background: #fff;
+    border-radius: 40px;
+    color: #000;
+    cursor: pointer;
+    border: none !important;
+    transition: .5s;
+}
+
+#bts:hover{
+    transform: scale(1.1);
+    background-color: #000;
+    color: #fff;
+    transform: .7s;
+}
+
+
+/* Estilos para ALIMENTOS PARA MASCOTAS */
+#alimento{
+    background-color: #000;
+    background-size: cover;
+}
+
+#alimento h2{
+    font-size: 50px;
+    color:#fff;
+    text-align: center;
+}
+
+#alimento h3{
+    color: #fff;
+}
+
+
+#alimento .fila{
+    display: flex;
+    justify-content: center;
+}
+
+.col-ali {
+    font-size: 30px;
+    padding-top: 45px;
+    padding: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.col-ali img{
+    border-radius: 20px;
+}
+
+.col-ali img:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+
+
+/* Estilos para ACCESORIOS */
+#accesorio{
+    background-color: #000;
+    background-size: cover;
+    color: #fff;
+}
+
+#accesorio h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+#accesorio h3{
+    color: #fff;
+    display: flex;
+    padding-top: 110px;
+    padding-left: 40px;
+}
+
+
+#accesorio .col-acc{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+div .col-acc{
+    display: flex;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+#accesorio p{
+    padding: 90px;
+}
+
+#accesorio .fila{
+    justify-content: center;
+}
+
+.col-acc img:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+
+#accesorio hr{
+    margin: 10px;
+}
+
+
+/* Estilos para SETVICIOS ADICIONALES */
+#adicional{
+    background-color: #000;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+#adicional .fila{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#adicional h2{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#adicional h3{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#adicional p{
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+.col-adi img{
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.col-adi img:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+
+/* Estilos para ADOPCION */
+ #adopcion{
+    background: #000;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column; 
+    align-items: center
+}
+
+#adopcion .fila{ 
+    display: flex;
+    justify-content: center;
+
+}
+
+.col-adop {
+    width: 50%;
+    padding: 20px;
+    text-align: center; 
+  }
+
+
+#adopcion h2{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#adopcion h3{
+    color: #fff;
+    padding-top: 25px;
+    padding-left:  130px;
+    font-size: 35px;
+}
+
+#adopcion ul{
+    padding-top: 25px;
+    padding-left:  110px;
+    font-size: 25px;
+}
+
+#adop {
+    padding-right: 130px;
+}
+
+.col-adop img:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+.col-adop img{
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.col-adop img:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+/* Estilo contactos */
+#contactos{
+    width: 100%;
+    position: relative;
+    padding: 130px 0 200px;
+    background: #000;
+    text-align: center;
+    color:#fff;
+}
+
+
+#contactos h2{
+    padding: 35px;
+    font-size: 45px;
+    color: #fff;
+}
+
+#contatos p{
+    font-size: 22px;
+    padding: 40px 0 40px;
+    color: #fff;
+}
+
+#contactos form{
+    width: 85%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#contactos .fila{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#contactos input,
+#contactos select{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+
+#contactos button{
+    background: #fff;;
+    color: #000;
+    font-size: 26px;
+    padding: 8px 40px;
+    border-radius: 4px;
+    margin-top: 40px;
+    border-color: transparent;
+    transition: .5s;
+}
+
+#contactos button:hover{
+    transform: scale(1.1);
+}
+
+/* Estilo FOOTER */
+
+footer{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+}
+
+.text-footer{
+    color:#000;
+    font-family: auto;
+    text-align: center;
+}
